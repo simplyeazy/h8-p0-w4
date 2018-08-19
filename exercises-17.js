@@ -4,7 +4,7 @@ function totalDigitRekursif(angka) {
         return 0;
     }
     else {
-        return angka % 10 + totalDigitRekursif(Math.floor(angka / 10))
+        return angka % 10 + totalDigitRekursif(Math.floor(angka / 10));
     }
 }
 

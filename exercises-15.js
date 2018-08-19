@@ -43,9 +43,9 @@ function reverseWord(str) {
   //code di sini
   // let strArr = str.split('');
   // return strArr.reverse().join();
-  let reverseString = ''
+  let reverseString = '';
   for (let j = str.length - 1; j >= 0; j--) {
-    reverseString += str[j]
+    reverseString += str[j];
   }
   return reverseString;
 }
